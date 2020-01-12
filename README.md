@@ -1,17 +1,12 @@
-# Gatsby + Cosmic JS
+# Security Intern List
 
-![gatsby-blog-cosmicjs](static/thumbnail.png "The index page of the starter blog")
+A listing of available security engineering internships ([live demo](https://security-intern-list-4844186733.gtsb.io/)).
 
-> This repo contains an example blog website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Cosmic JS](https://www.cosmicjs.com).
-
-> [See live demo hosted on Netlify](https://gatsby-blog-cosmicjs.netlify.com/)
-
-> Uses the [Cosmic JS Gatsby Source Plugin](https://www.npmjs.com/package/gatsby-source-cosmicjs)
+Built with the [Gatsby](https://www.gatsbyjs.org/), and [Cosmic JS](https://www.cosmicjs.com).
 
 ## Prerequisites
 
-- Node (I recommend using v8.2.0 or higher)
-- [Gatsby CLI](https://www.gatsbyjs.org/docs/)
+- Node (v8.2.0 or higher)
 
 ## Install
 
@@ -19,28 +14,9 @@
 # Make sure that you have the Gatsby CLI program installed
 npm install --global gatsby-cli
 
-# run from your CLI
-gatsby new gatsby-example-blog https://github.com/cosmicjs/gatsby-blog-cosmicjs
-```
-In `gatsby-config.js` you need to add configuration for your Cosmic JS Bucket
-
-``` javascript
-{
-  resolve: 'gatsby-source-cosmicjs',
-  options: {
-    bucketSlug: '', /* bucket slug */
-    objectTypes: ['posts', 'settings'], /* object slugs you want to populate */
-    apiAccess: {
-      read_key: '', /* optional */
-    }
-  }
-},
-```
-
-Then
+After cloning the repo:
 
 ``` bash
-# Then you can run it by
-cd gatsby-example-blog
+cd security-intern-list
 npm run develop
 ```
