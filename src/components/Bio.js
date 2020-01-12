@@ -9,7 +9,7 @@ export default ({ settings }) => (
     }}
   >
     <img
-      src={settings.author_avatar.imgix_url}
+      //src={settings.author_avatar.imgix_url}
       alt={settings.author_name}
       style={{
         marginRight: rhythm(1 / 2),
