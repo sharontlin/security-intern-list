@@ -131,14 +131,6 @@ export default ({ children, location }) => (
                 boxShadow: 'none',
               }}
             >
-              <img
-                src={gatsbyLogo}
-                alt="Gatsby JS"
-                style={{
-                  width: '20px',
-                  margin: '0 4px -3px 2px',
-                }}
-              />
               <strong>Gatsby</strong>
             </a>
             &nbsp;and&nbsp;
@@ -150,14 +142,6 @@ export default ({ children, location }) => (
                 boxShadow: 'none',
               }}
             >
-              <img
-                src={cosmicjsLogo}
-                alt="Cosmic JS"
-                style={{
-                  width: '18px',
-                  margin: '0 4px -2px 5px',
-                }}
-              />
               <strong>Cosmic JS</strong>
             </a>
           </footer>
