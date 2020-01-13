@@ -1,5 +1,7 @@
 # Security Intern List
 
+![Screenshot](/static/securityinternlist.png)
+
 A listing of available security engineering internships scraped from Lever.co.
 
 Built with the [Gatsby](https://www.gatsbyjs.org/), and [Cosmic JS](https://www.cosmicjs.com).
