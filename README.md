@@ -20,5 +20,6 @@ After cloning the repo:
 
 ``` bash
 cd security-intern-list
-npm run develop
+npm install
+gatsby clean && gatsby develop
 ```
