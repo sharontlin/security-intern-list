@@ -12,7 +12,7 @@ import companies from '../static/data.js';
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Security Intern List" />
+      <SEO title="Home" />
       {companies.map((node, index) => (
         <Box>
           <Columns>
