@@ -1,6 +1,6 @@
 # Security Intern List
 
-![Screenshot](/static/securityinternlist.png)
+![Screenshot](/src/static/securityinternlist.png)
 
 A listing of available security engineering internships scraped from Lever.co.
 
