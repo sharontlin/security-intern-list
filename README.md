@@ -1,5 +1,7 @@
 # Security Intern List
 
+ [![NPM version](https://badge.fury.io/js/esta.svg)](http://badge.fury.io/js/esta)
+ 
 ![Screenshot](/src/static/securityinternlist.png)
 
 A listing of available security engineering internships scraped from Lever.co.
